@@ -1,0 +1,24 @@
+* {
+  margin:0
+  padding: 0;
+}
+
+#gridContainer {
+	margin: auto;
+  height: 34em;
+	width: 34em;
+
+  /*Define grid block placement.*/
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;  
+}
+
+
+.gridBlock {
+  width: 2em;
+  height: 2em;
+  border: 1px solid black;
+}
