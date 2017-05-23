@@ -4,10 +4,10 @@
 }
 
 #gridContainer {
-	margin: auto;
-  height: 34em;
-	width: 34em;
-
+  height: 35em;
+  width: 35em;
+  margin: 7em auto;
+  
   /*Define grid block placement.*/
   border: 1px solid black;
   display: flex;
@@ -16,9 +16,10 @@
   justify-content: center;  
 }
 
-
+/* Default grid size only */
 .gridBlock {
-  width: 2em;
-  height: 2em;
+  margin: -1px;
+  width: 2.1875em;
+  height: 2.1875em;
   border: 1px solid black;
 }
